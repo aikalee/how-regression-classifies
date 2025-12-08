@@ -9,7 +9,13 @@ class SimpleNN:
         self.b2 = np.zeros((1, out_dim))
     
     def params(self):
-        return [self.W1, self.b1, self.W2, self.b2]
+        return {"W1": self.W1, "b1": self.b1, "W2": self.W2, "b2": self.b2}
+
+    def set_params(self, params):
+        self.W1 = params["W1"]
+        self.b1 = params["b1"]
+        self.W2 = params["W2"]
+        self.b2 = params["b2"]
     
     def forward(self, X):
         self.X = X
