@@ -1,7 +1,7 @@
 import numpy as np
 
 class SGDNesterov:
-    def __init__(self, params, lr=0.05, momentum=0.9):
+    def __init__(self, params, lr=0.001, momentum=0.3):
         self.params = params
         self.lr = lr
         self.momentum = momentum
