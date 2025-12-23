@@ -23,13 +23,13 @@ This repository is not intended as a performance benchmark or a training tutoria
 ```
 $ python3 -m src.trainer
 ```
-| Argument                |
-|-------------------------|
-|`--lr`                   |
-|`--momentum`             |
-|`--data_seed`            |
-|`--epoches`              |
-|`--save_checkpoints`     |
-|`--save_checkpoint_dir`  |
-|`--save_logits`          |
-|`--save_logit_dir`       |
+| Argument                | Description                       |
+|-------------------------|-----------------------------------|
+|`--lr`                   | Learning rate                     |
+|`--epoches`              | Epochs of training                |
+|`--momentum`             | Momentum of SGDNesterov Optimizer |
+|`--data_seed`            | Numpy seed of the dataset         |
+|`--save_checkpoints`     | Saving the weights after training |
+|`--save_checkpoint_dir`  | Where to save the weights         |
+|`--save_logits`          | Saving the logits after training  |
+|`--save_logit_dir`       | Where to save the logits          |
