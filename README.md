@@ -27,7 +27,7 @@ $ python3 -m src.trainer
 |-------------------------|-----------------------------------|
 |`--lr`                   | Learning rate                     |
 |`--epoches`              | Epochs of training                |
-|`--momentum`             | Momentum of SGDNesterov Optimizer |
+|`--momentum`             | Momentum of SGDNesterov optimizer |
 |`--data_seed`            | Numpy seed of the dataset         |
 |`--save_checkpoints`     | Saving the weights after training |
 |`--save_checkpoint_dir`  | Where to save the weights         |
